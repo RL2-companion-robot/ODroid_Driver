@@ -99,9 +99,9 @@ int main(int argc, char** argv) {
     uint64_t action_recv_count = 0;
     uint64_t obs_send_count = 0;
 
-    float kp_4340 = 20.0f;  // DM4340关节Roll的Kp增益
-    float kp_6006 = 12.0f;  // DM6006关节的Kp增益
-    float kp_8006 = 12.0f;   // DM8006关节Pitch的Kp增益
+    float kp_4340 = 25.0f;  // DM4340关节Roll的Kp增益
+    float kp_6006 = 15.0f;  // DM6006关节的Kp增益
+    float kp_8006 = 15.0f;   // DM8006关节Pitch的Kp增益
 
     float kd_4340 = 1.0f;  // DM4340关节Roll的Kd增益
     float kd_6006 = 1.0f;  // DM6006关节的Kd增益
